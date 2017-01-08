@@ -1,0 +1,199 @@
+.auth-form {
+    width: 340px;
+    margin: 0 auto
+}
+
+.auth-form .form-group.warn .warning, .auth-form .form-group.warn .error, .auth-form .form-group.errored .warning, .auth-form .form-group.errored .error {
+    max-width: 274px
+}
+
+.auth-form-header {
+    padding: 10px 20px;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+    background-color: #829aa8;
+    border: 1px solid #768995;
+    border-radius: 3px 3px 0 0
+}
+
+.auth-form-header h1 {
+    font-size: 16px
+}
+
+.auth-form-header h1 a {
+    color: #fff
+}
+
+.auth-form-header .octicon {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1)
+}
+
+.auth-form-message {
+    max-height: 140px;
+    padding: 20px 20px 10px;
+    overflow-y: scroll;
+    border: 1px solid #d8dee2;
+    border-radius: 3px
+}
+
+.auth-form-message ul {
+    padding-left: inherit;
+    margin-bottom: inherit
+}
+
+.auth-form-body {
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+    border-top: 0;
+    border-radius: 0 0 3px 3px
+}
+
+.auth-form-body .input-block {
+    margin-top: 5px;
+    margin-bottom: 15px
+}
+
+.auth-form-body p {
+    margin: 10px 0
+}
+
+.auth-form-body ul {
+    padding-left: inherit;
+    margin-bottom: inherit
+}
+
+.session-authentication {
+    background-color: #f9f9f9
+}
+
+.session-authentication .header-logged-out {
+    background-color: transparent;
+    border-bottom: 0
+}
+
+.session-authentication .header-logo {
+    display: block;
+    color: #333;
+    text-align: center
+}
+
+.session-authentication .flash {
+    padding: 15px 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    font-size: 13px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px
+}
+
+.session-authentication .flash .container {
+    width: auto
+}
+
+.session-authentication .flash .flash-close {
+    height: 40px
+}
+
+.session-authentication .flash.is-signed-in, .session-authentication .flash.is-signed-out {
+    width: 100%;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0
+}
+
+.session-authentication .auth-form label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: normal
+}
+
+.session-authentication .auth-form .btn {
+    margin-top: 20px
+}
+
+.session-authentication .auth-form .u2f-error {
+    margin-bottom: 0
+}
+
+.session-authentication .label-link {
+    float: right;
+    font-size: 12px
+}
+
+.session-authentication .auth-form-header {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0
+}
+
+.session-authentication .auth-form-header h1 {
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -0.5px
+}
+
+.session-authentication .auth-form-body {
+    border-top: 1px solid #d8dee2;
+    border-radius: 5px
+}
+
+.session-authentication .auth-form-body.u2f-auth-form-body {
+    padding: 20px
+}
+
+.session-authentication .create-account-callout {
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #d8dee2;
+    border-radius: 5px
+}
+
+.session-authentication .two-factor-help {
+    padding: 0 0 0 20px;
+    margin-top: 20px;
+    border: 0
+}
+
+.session-authentication .two-factor-help .octicon-device-mobile {
+    top: 3px;
+    left: 0
+}
+
+.session-authentication .two-factor-help .octicon-key {
+    top: 0;
+    left: 0
+}
+
+.session-authentication .site-footer {
+    border-top: 0
+}
+
+.session-authentication .site-footer-links {
+    text-align: center
+}
+
+.session-authentication .site-footer-links a {
+    color: #9b9b9b
+}
+
+.session-authentication.enterprise .header-logged-out {
+    padding: 48px 0 28px;
+    background-color: transparent
+}
+
+.session-authentication.hosted .header-logged-out {
+    padding: 40px 0 20px;
+    background-color: transparent
+}

@@ -1,0 +1,41 @@
+{
+  "manifest_version": 2,
+  "name": "My Github",
+  "version": "0.0.1",
+  "description": "Direct access to your Github",
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png",
+    "128": "icons/icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon32.png",
+    "default_title": "Direct access to your Github",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": [
+      "src/my-github.js"
+    ],
+    "css": [
+      "css/framework.css",
+      "css/github.css",
+      "css/site.css"
+    ],
+    "persistent": true
+  },
+
+  "author": "Su Yu",
+
+  "homepage_url": "http://www.freemansu.com/",
+  "update_url": "http://www.freemansu.com/update",
+
+  "permissions": [
+    "*://*.github.com/*"
+  ]
+
+}
